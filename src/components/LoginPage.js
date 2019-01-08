@@ -241,7 +241,9 @@ class LoginPage extends Component {
       errorMsg: '',
       MfaAttemptsRemaining: 3,
       countDown: 178,
-      password: ''
+      password: '',
+      newPassword: '',
+      confirmPassword: ''
     })
     clearInterval(this.timer)
   }
