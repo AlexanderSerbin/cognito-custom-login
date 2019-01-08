@@ -575,8 +575,8 @@ describe('LoginPage.js Tests', () => {
   })
 
   describe('Cancel button', () => {
-    var newPasswordValue = '123'
-    var confirmPasswordValue = '456'
+    const newPasswordValue = '123'
+    const confirmPasswordValue = '456'
 
     it('calls onCancel', () => {
 
